@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <legend>Form</legend>
+    <div>
+        <label for="name">İsim:</label>
+        <input type="text" name="name">
+        <label for="surname">Soyisim:</label>
+        <input type="text" name="surname">
+    </div>
+    <div>
+        <label for="email">E-Posta:</label>
+        <input type="email" id="email">
+    </div>
+    <div>
+        <label for="password">Şifre:</label>
+        <input type="password" id="password">
+    </div>
+    <div>
+        <label for="gender">Cinsiyet:</label>
+        <input type="radio" name="gender" value="male">Erkek
+        <input type="radio" name="gender" value="female">Kadın
+    </div>
+    <div>
+        <label for="fruits">Meyveler:</label>
+        <select id="fruits">
+            <option value="">Seçiniz</option>
+            <option value="apple">Elma</option>
+            <option value="banana">Muz</option>
+            <option value="strawberry">Çilek</option>
+        </select>
+    </div>
+    <div>
+        <label for="text">Açıklama</label>
+        <textarea id="address" rows="5" cols="20"></textarea>
+    </div>
+    <div>
+        <button type="button">Gönder</button>
+        <button type="reset">Sıfırla</button>
+    </div>
+    
+</body>
+</html>
